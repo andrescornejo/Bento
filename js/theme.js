@@ -34,6 +34,8 @@ themeToggle.addEventListener("click", () => {
   }
 });
 
+enableDark();
+
 // Theme accordint the hour
 
 /*
