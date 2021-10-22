@@ -88,15 +88,19 @@ const CONFIG = {
   lists: {
     firstList: [
       {
-        name: 'ProtonMail',
-        link: 'https://account.protonmail.com/login',
-      },
-      {
         name: 'Google Drive',
         link: 'https://drive.google.com',
       },
+      {
+        name: 'ProtonMail',
+        link: 'https://account.protonmail.com/login',
+      },
     ],
     secondList: [
+      {
+        name: 'Blink Learning',
+        link: 'https://www.blinklearning.com/',
+      },
       {
         name: 'Language Tool',
         link: 'https://languagetool.org/',
