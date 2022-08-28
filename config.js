@@ -10,25 +10,26 @@ const CONFIG = {
 	// ├┴┐├─┤└─┐││  └─┐
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
-  // General
-  name: 'Andrés',
-  imageBackground: false,
-  openInNewTab: false,
-  twelveHourFormat: false,
+	// General
+	name: 'Andrés',
+	imageBackground: false,
+	openInNewTab: false,
+	twelveHourFormat: false,
 
 	// Greetings
 	greetingMorning: 'Good morning!',
 	greetingAfternoon: 'Good afternoon,',
 	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingNight: 'Good night,',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
-  // Weather
-  weatherKey: '82a2633bac914021ff5a0f1536f27be6',
-  weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
-  weatherUnit: 'C', // 'F', 'C'
-  language: 'en', // More languages in https://openweathermap.org/current#multi
+
+	// Weather
+	weatherKey: '82a2633bac914021ff5a0f1536f27be6',
+	weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
+	weatherUnit: 'C', // 'F', 'C'
+	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	// Weather
 	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
@@ -58,39 +59,39 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
+			name: 'tecDigital',
+			icon: 'type',
+			link: 'https://tecdigital.tec.ac.cr/',
 		},
 		{
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://gmail.com',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Tasks',
+			icon: 'check-circle',
+			link: 'https://cloud.andrescornejo.com/apps/tasks',
 		},
 		{
 			id: '4',
 			name: 'Calendar',
 			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			link: 'https://cloud.andrescornejo.com/apps/calendar',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Github',
+			icon: 'github',
+			link: 'https://github.com/',
 		},
 		{
 			id: '6',
 			name: 'Odysee',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://youtube.com/',
 		},
 	],
 
