@@ -12,7 +12,7 @@ const CONFIG = {
 
 	// General
 	name: 'Andrés',
-	imageBackground: false,
+	imageBackground: true,
 	openInNewTab: false,
 	twelveHourFormat: false,
 
@@ -146,6 +146,13 @@ const CONFIG = {
 					name: 'Google Drive',
 					link: 'https://drive.google.com',
 				},
+				{
+					name: 'Translate',
+					link: 'https://www.reverso.net/text-translation/',
+				},
+				{	name: 'MonkeyType',
+					link: 'https://monkeytype.com/',	
+				},
 			],
 		},
 		{
@@ -153,16 +160,21 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Language Tool',
-					link: 'https://languagetool.org/',
+					name: 'RAE',
+					link: 'https://dle.rae.es/',
 				},
 				{
-					name: 'Translate',
-					link: 'https://www.reverso.net/text-translation/',
+					name: 'Cambridge Dictionary',
+					link: 'https://dictionary.cambridge.org/'
+
 				},
 				{
 					name: 'PONS Dictionary',
 					link: 'https://en.pons.com/translate/english-german/',
+				},
+				{
+					name: 'Language Tool',
+					link: 'https://languagetool.org/',
 				},
 			],
 		},
