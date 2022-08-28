@@ -17,7 +17,7 @@ const CONFIG = {
 	twelveHourFormat: false,
 
 	// Greetings
-	greetingMorning: 'Good morning!',
+	greetingMorning: 'Good morning,',
 	greetingAfternoon: 'Good afternoon,',
 	greetingEvening: 'Good evening,',
 	greetingNight: 'Good night,',
@@ -28,12 +28,6 @@ const CONFIG = {
 	// Weather
 	weatherKey: '82a2633bac914021ff5a0f1536f27be6',
 	weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
-	weatherUnit: 'C', // 'F', 'C'
-	language: 'en', // More languages in https://openweathermap.org/current#multi
-
-	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
@@ -65,21 +59,21 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://gmail.com',
+			name: 'Calendar',
+			icon: 'calendar',
+			link: 'https://www.icloud.com/calendar/',
 		},
 		{
 			id: '3',
 			name: 'Tasks',
 			icon: 'check-circle',
-			link: 'https://cloud.andrescornejo.com/apps/tasks',
+			link: 'https://www.icloud.com/reminders/',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://cloud.andrescornejo.com/apps/calendar',
+			name: 'Mail',
+			icon: 'mail',
+			link: 'https://gmail.com/',
 		},
 		{
 			id: '5',
@@ -89,7 +83,7 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'Youtube',
 			icon: 'youtube',
 			link: 'https://youtube.com/',
 		},
@@ -141,46 +135,34 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'globe',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'ProtonMail',
+					link: 'https://account.proton.me',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Google Drive',
+					link: 'https://drive.google.com',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'pen-tool',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Language Tool',
+					link: 'https://languagetool.org/',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Translate',
+					link: 'https://www.reverso.net/text-translation/',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
-				},
-				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'PONS Dictionary',
+					link: 'https://en.pons.com/translate/english-german/',
 				},
 			],
 		},
